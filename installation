@@ -1,0 +1,7 @@
+https://github.com/snowflakedb/dplyr-snowflakedb/wiki/Configuring-R-rJava-RJDBC-on-Mac-OS-X
+1. change   
+curl -#ROL https://cran.rstudio.com/bin/macosx/R-3.2.3.pkg
+open R-3.2.3.pkg. 
+to  
+curl -#ROL https://cran.rstudio.com/bin/macosx/R-3.4.1.pkg
+open R-3.4.1.pkg
