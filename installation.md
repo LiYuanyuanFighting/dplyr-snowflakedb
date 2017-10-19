@@ -19,4 +19,10 @@ From this [link](https://github.com/peterwittek/somoclu/issues/69).
 
 3. setup R following the [link](https://ahoyyangbai.wordpress.com/2013/08/24/setup-r-in-eclipse-on-mac-osx/)
 to install R packages in R console, following this   
-(install.packages(c("rj", "rj.gd"), repos="http://download.walware.de/rj-1.0", type="source"))
+(install.packages(c("rj", "rj.gd"), repos="http://download.walware.de/rj-1.0", type="source"))  
+
+4. When install rj and rj.gb packages in R console, meet problems:  
+ld: library not found for -lomp   
+Solve: 1st use 2 exporting commands mentioned in 2, 2nd download rj and rj.gd packages from WalWare(2.1 version), 
+put in desktop, 3rd in terminal write: R CMD INSTALL --no-test-load rj_2.1.0-13.tar, then write   
+R CMD INSTALL --no-test-load rj.gd_2.1.0-2.tar to install the 2 packages from desktop
