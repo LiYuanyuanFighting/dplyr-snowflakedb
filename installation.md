@@ -17,3 +17,6 @@ $ export LIBRARY_PATH=/usr/local/opt/llvm/lib:$LIBRARY_PATH
 before running R CMD INSTALL works. 
 From this [link](https://github.com/peterwittek/somoclu/issues/69). 
 
+3. setup R following the [link](https://ahoyyangbai.wordpress.com/2013/08/24/setup-r-in-eclipse-on-mac-osx/)
+to install R packages in R console, following this   
+(install.packages(c("rj", "rj.gd"), repos="http://download.walware.de/rj-1.0", type="source"))
