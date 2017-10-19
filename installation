@@ -10,3 +10,8 @@ open R-3.4.1.pkg
 http://thecoatlessprofessor.com/programming/openmp-in-r-on-os-x/#after-3-4-0. 
 Then appears another error:  
 ld: library not found for -lomp
+Then I tried with it and found:
+
+$ export LD_LIBRARY_PATH=/usr/local/opt/llvm/lib:$LD_LIBRARY_PATH
+$ export LIBRARY_PATH=/usr/local/opt/llvm/lib:$LIBRARY_PATH
+before running R CMD INSTALL works
