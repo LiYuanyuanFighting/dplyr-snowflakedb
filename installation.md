@@ -12,7 +12,7 @@ Then appears another error:
 ld: library not found for -lomp
 Then I tried with it and found:
 
-$ export LD_LIBRARY_PATH=/usr/local/opt/llvm/lib:$LD_LIBRARY_PATH
+$ export LD_LIBRARY_PATH=/usr/local/opt/llvm/lib:$LD_LIBRARY_PATH  
 $ export LIBRARY_PATH=/usr/local/opt/llvm/lib:$LIBRARY_PATH
 before running R CMD INSTALL works. 
 From this [link](https://github.com/peterwittek/somoclu/issues/69). 
